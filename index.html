@@ -3,25 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Overview — agentoi</title>
-<meta name="description" content="agentoi documentation: install, architecture, API, and experiments.">
+<title>Overview — moira</title>
+<meta name="description" content="moira documentation: install, architecture, API, and experiments.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#content">Skip to content</a>
 <header class="top">
-  <a class="brand" href="index.html">agentoi</a>
+  <a class="brand" href="index.html">moira</a>
   <label class="nav-button" for="nav-toggle">Menu</label>
 </header>
 <input id="nav-toggle" class="nav-toggle" type="checkbox">
 <div class="layout">
 <nav class="nav">
-<a class="brand-desk" href="index.html">agentoi</a><a href="index.html" aria-current="page">Overview</a><a href="getting-started.html">Getting started</a><a href="architecture.html">Architecture</a><a href="api.html">API</a><a href="experiments.html">Experiments</a><a href="reference.html">Reference</a>
+<a class="brand-desk" href="index.html">moira</a><a href="index.html" aria-current="page">Overview</a><a href="getting-started.html">Getting started</a><a href="architecture.html">Architecture</a><a href="api.html">API</a><a href="experiments.html">Experiments</a><a href="reference.html">Reference</a>
 </nav>
 <main id="content">
 <p class="kicker">Notes</p>
 <h1>Overview</h1>
-<p class="lede">agentoi loads an ontology, retrieves nearby concepts, and answers with a language model.</p>
+<p class="lede">moira loads an ontology, retrieves nearby concepts, and answers with a language model.</p>
 
 <nav class="toc"><strong>On this page</strong><ol><li><a href="#pages">Pages</a></li><li><a href="#install">Install</a></li></ol></nav>
 <h2 id="pages">Pages</h2>
@@ -34,16 +34,16 @@
 <a class="card" href="chat-log.html"><strong>Chat log</strong><span>A local llama3.1 session on the mouse anatomy ontology.</span></a>
 </div>
 <h2 id="install">Install</h2>
-<pre><code>git clone https://github.com/lamng3/agentoi.git
-cd agentoi
+<pre><code>git clone https://github.com/lamng3/moira.git
+cd moira
 ./setup.sh
 source .venv/bin/activate
-agentoi inspect ontology.owl
-agentoi chat ontology.owl</code></pre>
-<p>The code is <a href="https://github.com/lamng3/agentoi">github.com/lamng3/agentoi</a>.</p>
+moira inspect ontology.owl
+moira chat ontology.owl</code></pre>
+<p>The code is <a href="https://github.com/lamng3/moira">github.com/lamng3/moira</a>.</p>
 
 </main>
 </div>
-<footer class="site">agentoi notes. Ontology integration: parse, retrieve, reason, and validate.</footer>
+<footer class="site">moira notes. Ontology integration: parse, retrieve, reason, and validate.</footer>
 </body>
 </html>
